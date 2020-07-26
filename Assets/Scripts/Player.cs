@@ -4,90 +4,68 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public Animator anim;
-    public Rigidbody2D rb;
+    public float movementSpeed = 2;
+    public float JumpForce = 10;
 
-    public GameObject btnLeft;
-    public GameObject btnRight;
-
-    public float PosBtnLeft;
-    public float PosBtnRight;
-
-    public float run;
-
-    public bool IsMoveRight = true;
-    public bool IsMoveLeft = false;
-
-    public bool IsJump = false;
-
-    void Start()
+    private Rigidbody2D _rigidbody;
+    public Animator _animator;
+    
+    private void Start()
     {
-        PosBtnLeft = btnLeft.transform.position.y;
-        PosBtnRight = btnRight.transform.position.y;
-
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-    }
-
-    void Update()
-    {
-        rb.velocity = new Vector2(Input.GetAxis("Horizontal"), rb.velocity.y);
-        
-        if (Input.GetAxis("Horizontal") != 0)
-        {
-            if (Input.GetAxis("Horizontal") > 0)
-            {
-                Move(true, true, false, false);
-            }
-            else
-            {
-                Move(true, false, false, false);
-            }
-        }
-        else
-        {
-            Move(false, false, false, false);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Jump();
-        }
-    }
-
-    void Move(bool move, bool isRight, bool crouch, bool jump)
-    {
-        if (move)
-        {
-            anim.SetBool("IsWalk", true);
-        }
-        else
-        {
-            anim.SetBool("IsWalk", false);
-        }
-
-        if (isRight)
-        {
-            anim.SetBool("ToRight", true);
-            anim.SetBool("ToLeft", false);
-        }
-        else
-        {
-            anim.SetBool("ToRight", false);
-            anim.SetBool("ToLeft", true);
-        }
-        
-        anim.SetBool("IsJump", false);
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
     
-    void Crouch()
+    private void Update()
     {
-        Debug.Log("Crouch");
+        var movement = Input.GetAxisRaw("Horizontal");
+
+        Move(movement);
+
+        if (Input.GetButtonDown("Jump") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
+        {
+            Jump(true);
+        }
+        else
+        {
+            Jump(false);
+        }
+    }
+
+    void Move(float movement)
+    {
+        transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * movementSpeed;
+        
+        if (movement != 0)
+        {
+            if (movement > 0)
+            {
+                _animator.SetBool("isMove", true);
+                _animator.SetBool("isRight", true);
+            }
+
+            if (movement < 0)
+            {
+                _animator.SetBool("isMove", true);
+                _animator.SetBool("isLeft", true);
+            }
+        }
+        else
+        {
+            _animator.SetBool("isMove", false);
+            _animator.SetBool("isRight", false);
+        }
     }
     
-    void Jump()
+    void Jump(bool isJump)
     {
-        anim.SetBool("IsJump", true);
-        rb.AddForce(transform.up * 5, ForceMode2D.Impulse);
+        if (isJump)
+        {
+            _rigidbody.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
+            _animator.SetBool("isJump", true);
+        }
+        else
+        {
+            _animator.SetBool("isJump", false);
+        }
     }
 }

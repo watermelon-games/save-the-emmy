@@ -268,16 +268,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c681c9c6f1ab747b98b511ae8f3928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 257919638}
-  rb: {fileID: 257919635}
-  btnLeft: {fileID: 1818315766}
-  btnRight: {fileID: 1737337499}
-  PosBtnLeft: 0
-  PosBtnRight: 0
-  run: 0
-  IsMoveRight: 1
-  IsMoveLeft: 0
-  IsJump: 0
+  movementSpeed: 2
+  JumpForce: 4
+  _animator: {fileID: 257919638}
+  isMovement: 0
+  isMoveRight: 0
+  isMoveLeft: 0
+  isJump: 0
 --- !u!95 &257919638
 Animator:
   serializedVersion: 3
