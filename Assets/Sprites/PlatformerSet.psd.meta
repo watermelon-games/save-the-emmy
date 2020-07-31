@@ -1,0 +1,1400 @@
+fileFormatVersion: 2
+guid: 62437dafaca348d40b7a961cf5f9e9a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8936206271830446434
+    second: PlatformerSet_0
+  - first:
+      213: -2877097195887072050
+    second: PlatformerSet_1
+  - first:
+      213: 6737686110178167175
+    second: PlatformerSet_2
+  - first:
+      213: -583398251967342426
+    second: PlatformerSet_3
+  - first:
+      213: 5961284376319326983
+    second: PlatformerSet_4
+  - first:
+      213: 7727332122250305809
+    second: PlatformerSet_5
+  - first:
+      213: 896596539679610202
+    second: PlatformerSet_6
+  - first:
+      213: 8643144664382946137
+    second: PlatformerSet_7
+  - first:
+      213: -8494502916772713540
+    second: PlatformerSet_8
+  - first:
+      213: 6033303967818363490
+    second: PlatformerSet_9
+  - first:
+      213: -1754454745775872377
+    second: PlatformerSet_10
+  - first:
+      213: -6385779396007642581
+    second: PlatformerSet_11
+  - first:
+      213: -2105810425008587723
+    second: PlatformerSet_12
+  - first:
+      213: 9182729185909193798
+    second: PlatformerSet_13
+  - first:
+      213: 5739507945609093510
+    second: PlatformerSet_14
+  - first:
+      213: -8012254618275809239
+    second: PlatformerSet_15
+  - first:
+      213: 5270478199082997600
+    second: PlatformerSet_16
+  - first:
+      213: 1575457618827812
+    second: PlatformerSet_17
+  - first:
+      213: -6042335371717780512
+    second: PlatformerSet_18
+  - first:
+      213: -4861811537713193281
+    second: PlatformerSet_19
+  - first:
+      213: 4037713326352287929
+    second: PlatformerSet_20
+  - first:
+      213: -8492575441856358121
+    second: PlatformerSet_21
+  - first:
+      213: 440052590072037933
+    second: PlatformerSet_22
+  - first:
+      213: -6249430009261635324
+    second: PlatformerSet_23
+  - first:
+      213: 4048354128143559605
+    second: PlatformerSet_24
+  - first:
+      213: -4151226096612182987
+    second: PlatformerSet_25
+  - first:
+      213: -641051787775117915
+    second: PlatformerSet_26
+  - first:
+      213: -2813970471950147441
+    second: PlatformerSet_27
+  - first:
+      213: 2540264405943238998
+    second: PlatformerSet_28
+  - first:
+      213: 7499555326681143965
+    second: PlatformerSet_29
+  - first:
+      213: -1818433977654248325
+    second: PlatformerSet_30
+  - first:
+      213: -1395162971936263360
+    second: PlatformerSet_31
+  - first:
+      213: -2131623247955110984
+    second: PlatformerSet_32
+  - first:
+      213: 4249691542457208715
+    second: PlatformerSet_33
+  - first:
+      213: -6763211075261570352
+    second: PlatformerSet_34
+  - first:
+      213: 1359579433804430847
+    second: PlatformerSet_35
+  - first:
+      213: 8302595970178585015
+    second: PlatformerSet_36
+  - first:
+      213: -7474933171962714936
+    second: PlatformerSet_37
+  - first:
+      213: -2382272610779269798
+    second: PlatformerSet_38
+  - first:
+      213: -7165106976147425153
+    second: PlatformerSet_39
+  - first:
+      213: -2419505118572401083
+    second: PlatformerSet_40
+  - first:
+      213: -2625061912529493601
+    second: PlatformerSet_41
+  - first:
+      213: 5914609082383850634
+    second: PlatformerSet_42
+  - first:
+      213: 5201284532452076649
+    second: PlatformerSet_43
+  - first:
+      213: -5417151019003057217
+    second: PlatformerSet_44
+  - first:
+      213: -5526857103337133900
+    second: PlatformerSet_45
+  - first:
+      213: 1312417917448577801
+    second: PlatformerSet_46
+  - first:
+      213: -973658487518479056
+    second: PlatformerSet_47
+  - first:
+      213: -4800330023692944394
+    second: PlatformerSet_48
+  - first:
+      213: 2295411856316887480
+    second: PlatformerSet_49
+  - first:
+      213: -8968560334766229616
+    second: PlatformerSet_50
+  - first:
+      213: -6008467167153362885
+    second: PlatformerSet_51
+  - first:
+      213: -1386355915203823750
+    second: PlatformerSet_52
+  - first:
+      213: -4548358737015846255
+    second: PlatformerSet_53
+  - first:
+      213: 5993591412396556784
+    second: PlatformerSet_54
+  - first:
+      213: -308503138098929211
+    second: PlatformerSet_55
+  - first:
+      213: 8890069150412973538
+    second: PlatformerSet_56
+  - first:
+      213: -3007762393878271752
+    second: PlatformerSet_57
+  - first:
+      213: 4351731941407171667
+    second: PlatformerSet_58
+  - first:
+      213: -3195038251586569760
+    second: PlatformerSet_59
+  - first:
+      213: 5384807090782543043
+    second: PlatformerSet_60
+  - first:
+      213: -335466992515644737
+    second: PlatformerSet_61
+  - first:
+      213: -7712697057690108420
+    second: PlatformerSet_62
+  - first:
+      213: 7921040393123725840
+    second: PlatformerSet_63
+  - first:
+      213: -3751831955799679194
+    second: PlatformerSet_64
+  - first:
+      213: -4077940979704949607
+    second: PlatformerSet_65
+  - first:
+      213: 3455431641572038347
+    second: PlatformerSet_66
+  - first:
+      213: -7866828025739071345
+    second: PlatformerSet_67
+  - first:
+      213: -6261654575294987418
+    second: PlatformerSet_68
+  - first:
+      213: -3038468451584961139
+    second: PlatformerSet_69
+  - first:
+      213: -2242329133114924356
+    second: PlatformerSet_70
+  - first:
+      213: -4811229148458798950
+    second: PlatformerSet_71
+  - first:
+      213: -4404677185987372920
+    second: PlatformerSet_72
+  - first:
+      213: 160637307650673977
+    second: PlatformerSet_73
+  - first:
+      213: 5677235178804442967
+    second: PlatformerSet_74
+  - first:
+      213: -3465424847769694370
+    second: PlatformerSet_75
+  - first:
+      213: 2803012521800078964
+    second: PlatformerSet_76
+  - first:
+      213: -8298993797880320728
+    second: PlatformerSet_77
+  - first:
+      213: -3394569906944546704
+    second: PlatformerSet_78
+  - first:
+      213: -3241792201709961745
+    second: PlatformerSet_79
+  - first:
+      213: 3236800635980062751
+    second: PlatformerSet_80
+  - first:
+      213: 4321723884283164320
+    second: PlatformerSet_81
+  - first:
+      213: 764368894462872852
+    second: PlatformerSet_82
+  - first:
+      213: -8242967913498631414
+    second: PlatformerSet_83
+  - first:
+      213: -3684531513219776567
+    second: PlatformerSet_84
+  - first:
+      213: 8529534462048055098
+    second: PlatformerSet_85
+  - first:
+      213: -3183857138397985229
+    second: PlatformerSet_86
+  - first:
+      213: -8984424419577756135
+    second: PlatformerSet_87
+  - first:
+      213: 5533656792495947200
+    second: PlatformerSet_88
+  - first:
+      213: -5411975436635183998
+    second: PlatformerSet_89
+  - first:
+      213: 6100342213182616790
+    second: PlatformerSet_90
+  - first:
+      213: 158504128336996134
+    second: PlatformerSet_91
+  - first:
+      213: 2575617376282274281
+    second: PlatformerSet_92
+  - first:
+      213: -5412564998563528113
+    second: PlatformerSet_93
+  - first:
+      213: 7841679276946177669
+    second: PlatformerSet_94
+  - first:
+      213: 2982574018073725100
+    second: PlatformerSet_95
+  - first:
+      213: 4129440157838655455
+    second: PlatformerSet_96
+  - first:
+      213: 1090948787936987142
+    second: PlatformerSet_97
+  - first:
+      213: 2682192920051162245
+    second: PlatformerSet_98
+  - first:
+      213: 91860629659172686
+    second: PlatformerSet_99
+  - first:
+      213: 4967228941957071398
+    second: PlatformerSet_100
+  - first:
+      213: 4412062775807033649
+    second: PlatformerSet_101
+  - first:
+      213: 3451370423696279139
+    second: PlatformerSet_102
+  - first:
+      213: 4839624065628908525
+    second: PlatformerSet_103
+  - first:
+      213: 3711217973035380656
+    second: PlatformerSet_104
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlatformerSet_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 359
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eade7edb73cf380800000000000000
+      internalID: -8936206271830446434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 359
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecce0e6085f7218d0800000000000000
+      internalID: -2877097195887072050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 302
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c045c1d1118d50800000000000000
+      internalID: 6737686110178167175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 298
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a817ec716a57e7f0800000000000000
+      internalID: -583398251967342426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 255
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b79975e8cbab250800000000000000
+      internalID: 5961284376319326983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 249
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111e130cf9ffc3b60800000000000000
+      internalID: 7727332122250305809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 201
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55927e6dc9517c00800000000000000
+      internalID: 896596539679610202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_7
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 198
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bbbd6674e92f770800000000000000
+      internalID: 8643144664382946137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_8
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 298
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb2e3e5a967d1a80800000000000000
+      internalID: -8494502916772713540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 356
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262b4cf2ef99ab350800000000000000
+      internalID: 6033303967818363490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 358
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786e78744bce6a7e0800000000000000
+      internalID: -1754454745775872377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_11
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 83
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ab4fef8772167a0800000000000000
+      internalID: -6385779396007642581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 136
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c7c055398a6c2e0800000000000000
+      internalID: -2105810425008587723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 181
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cbabada8b9f6f70800000000000000
+      internalID: 9182729185909193798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_14
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 206
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681ef8b3114d6af40800000000000000
+      internalID: 5739507945609093510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 207
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928ffab10e0cec090800000000000000
+      internalID: -8012254618275809239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 257
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06758c47fff742940800000000000000
+      internalID: 5270478199082997600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_17
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 256
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a9abfced8950000800000000000000
+      internalID: 1575457618827812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 310
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebdbfa3eff452ca0800000000000000
+      internalID: -6042335371717780512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_19
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 309
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe95b95a20678cb0800000000000000
+      internalID: -4861811537713193281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 362
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8c61aa0e6d80830800000000000000
+      internalID: 4037713326352287929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 362
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71912f791af442a80800000000000000
+      internalID: -8492575441856358121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_22
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 363
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d220cb9cf716b1600800000000000000
+      internalID: 440052590072037933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 362
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4094b4974809549a0800000000000000
+      internalID: -6249430009261635324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_24
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 362
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbabf461a4ae2830800000000000000
+      internalID: 4048354128143559605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_25
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 303
+        width: 332
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5347919fbd1e366c0800000000000000
+      internalID: -4151226096612182987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_26
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 231
+        width: 108
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5f803abc68a17f0800000000000000
+      internalID: -641051787775117915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 241
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18.5, y: 16}
+        - {x: 18.5, y: 16}
+        - {x: -0.5, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8029fac3c4c2f8d0800000000000000
+      internalID: -2813970471950147441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 261
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18.5, y: 15}
+        - {x: 18.5, y: 15}
+        - {x: -0.5, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651c0dfa405d04320800000000000000
+      internalID: 2540264405943238998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 309
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 10.5, y: 9.5}
+        - {x: 13.5, y: 3.5}
+        - {x: 13.5, y: -4.5}
+        - {x: 10.5, y: -10.5}
+        - {x: 4.5, y: -13.5}
+        - {x: -4.5, y: -13.5}
+        - {x: -10.5, y: -10.5}
+        - {x: -13.5, y: -4.5}
+        - {x: -13.5, y: 4.5}
+        - {x: -10.5, y: 9.5}
+        - {x: -4.5, y: 13.5}
+        - {x: 4.5, y: 13.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ad734d5d5c31860800000000000000
+      internalID: 7499555326681143965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_30
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 158
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18.5, y: 16}
+        - {x: 18.5, y: 16}
+        - {x: 0.5, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cfa6a8eef93c6e0800000000000000
+      internalID: -1818433977654248325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_31
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 369
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f5fd3ba263ace0800000000000000
+      internalID: -1395162971936263360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 369
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3dba623f3fa62e0800000000000000
+      internalID: -2131623247955110984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_33
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 369
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fc42921ffe9fa30800000000000000
+      internalID: 4249691542457208715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_34
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 269
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2eb0e2c5f3422a0800000000000000
+      internalID: -6763211075261570352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 169
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdf6dbaa423ed210800000000000000
+      internalID: 1359579433804430847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_36
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 169
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1951cbb0fb83370800000000000000
+      internalID: 8302595970178585015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4e06d42e3b34890800000000000000
+      internalID: -7474933171962714936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 69
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55fb5caea770fed0800000000000000
+      internalID: -2382272610779269798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_39
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 69
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f783f05ea2d609c90800000000000000
+      internalID: -7165106976147425153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_40
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 69
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ea04be9e03c6ed0800000000000000
+      internalID: -2419505118572401083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_41
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 69
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91a5464918e19bd0800000000000000
+      internalID: -2625061912529493601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 69
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cd9cc9f99e41250800000000000000
+      internalID: 5914609082383850634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatformerSet_43
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 69
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c2a8489bcae2840800000000000000
+      internalID: 5201284532452076649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
