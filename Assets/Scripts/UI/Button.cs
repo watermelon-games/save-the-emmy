@@ -7,11 +7,11 @@ public class Button : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     public void OnPointerDown(PointerEventData pointerEventData)
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y + 6f);
+        transform.position = new Vector2(transform.position.x, transform.position.y + 0.1f);
     }
 
     public void OnPointerUp(PointerEventData pointerEventData)
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y + -6f);
+        transform.position = new Vector2(transform.position.x, transform.position.y + -0.1f);
     }
 }

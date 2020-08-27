@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public bool onLadder = false;
     public float movementSpeed = 2;
-    public float JumpForce = 10;
+    public float jumpForce = 10;
 
     private Rigidbody2D _rigidbody;
-    public Animator _animator;
+    private Animator _animator;
     
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
     
     private void Update()
@@ -31,7 +33,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Move(float movement)
+    private void Move(float movement)
     {
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * movementSpeed;
         
@@ -56,16 +58,46 @@ public class Player : MonoBehaviour
         }
     }
     
-    void Jump(bool isJump)
+    private void Jump(bool isJump)
     {
         if (isJump)
         {
-            _rigidbody.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
+            _rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             _animator.SetBool("isJump", true);
         }
         else
         {
             _animator.SetBool("isJump", false);
+        }
+    }
+
+    private void Climb(bool isClimb)
+    {
+        if (isClimb)
+        {
+            _rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            _animator.SetBool("isClimb", true);
+        }
+        else
+        {
+            _animator.SetBool("isClimb", false);
+        }
+    }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Stairs"))
+        {
+            onLadder = true;
+            if (onLadder == true && Input.GetKeyDown("w"))
+            {
+                Climb(true);
+            }
+            Debug.Log("I'm on ladder.");
+        }
+        else
+        {
+            onLadder = false;
         }
     }
 }
