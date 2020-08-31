@@ -1,13 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    public bool doorOpen = false;
     public bool onLadder = false;
     public float movementSpeed = 2;
     public float jumpForce = 10;
-
+    
+    public Text coinsCountText;
+    public int coinsCount = 0;
+    
     private Rigidbody2D _rigidbody;
     private Animator _animator;
     // private Collision _collision;
@@ -86,11 +89,23 @@ public class Player : MonoBehaviour
         }
     }
     
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(other.tag);
+        // Debug.Log(collision.gameObject.tag);
+
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            TakeCoin();
+            Destroy(collision.gameObject);
+        }
         
-        if (other.CompareTag("Stairs"))
+        if (collision.gameObject.CompareTag("Key"))
+        {
+            TakeKey();
+            Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Stairs"))
         {
             onLadder = true;
             if (onLadder == true && Input.GetKeyDown("w"))
@@ -103,5 +118,16 @@ public class Player : MonoBehaviour
         {
             onLadder = false;
         }
+    }
+    
+    private void TakeCoin()
+    {
+        coinsCount++;
+        coinsCountText.text = "x" + coinsCount.ToString() ;
+    }
+    
+    private void TakeKey()
+    {
+        doorOpen = true;
     }
 }
