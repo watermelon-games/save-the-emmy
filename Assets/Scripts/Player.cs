@@ -7,28 +7,34 @@ public class Player : MonoBehaviour
     public bool onLadder = false;
     public float movementSpeed = 2;
     public float jumpForce = 10;
-    
+
     public Text coinsCountText;
     public int coinsCount = 0;
-    
+
     private Rigidbody2D _rigidbody;
     private Animator _animator;
-    // private Collision _collision;
-    
+    private Transform _transform;
+
+
     private void Start()
     {
+        coinsCount = 0;
+        
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
-        // _collision = GetComponent<Collision>();
+        _transform = GetComponent<Transform>();
     }
-    
+
     private void Update()
     {
         var movement = Input.GetAxisRaw("Horizontal");
+        var climb = Input.GetAxisRaw("Vertical");
 
         Move(movement);
 
-        if (Input.GetButtonDown("Jump") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
+        Climb(movement, climb);
+
+        if (Input.GetButtonDown("Jump") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f && !onLadder)
         {
             Jump(true);
         }
@@ -41,7 +47,7 @@ public class Player : MonoBehaviour
     private void Move(float movement)
     {
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * movementSpeed;
-        
+
         if (movement != 0)
         {
             if (movement > 0)
@@ -62,7 +68,7 @@ public class Player : MonoBehaviour
             _animator.SetBool("isRight", false);
         }
     }
-    
+
     private void Jump(bool isJump)
     {
         if (isJump)
@@ -76,56 +82,40 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Climb(bool isClimb)
+    private void Climb(float movement, float climb)
     {
-        if (isClimb)
+        if (onLadder)
         {
-            _rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             _animator.SetBool("isClimb", true);
+            transform.position += new Vector3(movement, climb, 0) * Time.deltaTime * movementSpeed;
         }
         else
         {
             _animator.SetBool("isClimb", false);
         }
     }
-    
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Debug.Log(collision.gameObject.tag);
-
         if (collision.gameObject.CompareTag("Coin"))
         {
+            Destroy(collision.gameObject);
             TakeCoin();
-            Destroy(collision.gameObject);
-        }
-        
-        if (collision.gameObject.CompareTag("Key"))
-        {
-            TakeKey();
-            Destroy(collision.gameObject);
         }
 
-        if (collision.gameObject.CompareTag("Stairs"))
+        if (collision.gameObject.CompareTag("Key"))
         {
-            onLadder = true;
-            if (onLadder == true && Input.GetKeyDown("w"))
-            {
-                Climb(true);
-            }
-            Debug.Log("I'm on ladder.");
-        }
-        else
-        {
-            onLadder = false;
+            Destroy(collision.gameObject);
+            TakeKey();
         }
     }
-    
+
     private void TakeCoin()
     {
-        coinsCount = coinsCount + 1;
-        coinsCountText.text = "x" + coinsCount.ToString() ;
+        coinsCount++;
+        coinsCountText.text = "x" + coinsCount.ToString();
     }
-    
+
     private void TakeKey()
     {
         doorOpen = true;
