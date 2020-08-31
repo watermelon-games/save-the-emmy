@@ -10,11 +10,13 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private Animator _animator;
+    // private Collision _collision;
     
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        // _collision = GetComponent<Collision>();
     }
     
     private void Update()
@@ -86,6 +88,8 @@ public class Player : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(other.tag);
+        
         if (other.CompareTag("Stairs"))
         {
             onLadder = true;
