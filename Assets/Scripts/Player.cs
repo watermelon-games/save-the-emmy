@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
     
     private void TakeCoin()
     {
-        coinsCount++;
+        coinsCount = coinsCount + 1;
         coinsCountText.text = "x" + coinsCount.ToString() ;
     }
     
