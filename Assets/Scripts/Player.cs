@@ -15,7 +15,6 @@ public class Player : MonoBehaviour
     private Animator _animator;
     private Transform _transform;
 
-
     private void Start()
     {
         coinsCount = 0;

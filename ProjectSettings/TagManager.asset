@@ -10,6 +10,8 @@ TagManager:
   - Life
   - Coin
   - Door
+  - Enemy
+  - EnemyWayPoint
   layers:
   - Default
   - TransparentFX
@@ -20,9 +22,9 @@ TagManager:
   - 
   - 
   - Player
+  - Enemy
   - Ground
-  - 
-  - 
+  - Stairs
   - 
   - 
   - 
@@ -55,4 +57,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1959969039
+    locked: 0
+  - name: Enemy
+    uniqueID: 309375653
     locked: 0
